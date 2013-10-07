@@ -21,6 +21,7 @@
 		490AD0EF1802F06400B0516B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 490AD0D11802F06400B0516B /* UIKit.framework */; };
 		490AD0F71802F06400B0516B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 490AD0F51802F06400B0516B /* InfoPlist.strings */; };
 		490AD0F91802F06400B0516B /* TestDaltonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 490AD0F81802F06400B0516B /* TestDaltonTests.m */; };
+		490AD1041802F1BE00B0516B /* BasicMathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 490AD1031802F1BE00B0516B /* BasicMathViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		490AD0F41802F06400B0516B /* TestDaltonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestDaltonTests-Info.plist"; sourceTree = "<group>"; };
 		490AD0F61802F06400B0516B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		490AD0F81802F06400B0516B /* TestDaltonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDaltonTests.m; sourceTree = "<group>"; };
+		490AD1021802F1BE00B0516B /* BasicMathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicMathViewController.h; sourceTree = "<group>"; };
+		490AD1031802F1BE00B0516B /* BasicMathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicMathViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				490AD0DC1802F06400B0516B /* AppDelegate.h */,
 				490AD0DD1802F06400B0516B /* AppDelegate.m */,
 				490AD0DF1802F06400B0516B /* Main.storyboard */,
+				490AD1021802F1BE00B0516B /* BasicMathViewController.h */,
+				490AD1031802F1BE00B0516B /* BasicMathViewController.m */,
 				490AD0E21802F06400B0516B /* ViewController.h */,
 				490AD0E31802F06400B0516B /* ViewController.m */,
 				490AD0E51802F06400B0516B /* Images.xcassets */,
@@ -252,6 +257,7 @@
 				490AD0E41802F06400B0516B /* ViewController.m in Sources */,
 				490AD0DE1802F06400B0516B /* AppDelegate.m in Sources */,
 				490AD0DA1802F06400B0516B /* main.m in Sources */,
+				490AD1041802F1BE00B0516B /* BasicMathViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
